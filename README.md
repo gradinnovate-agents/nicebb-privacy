@@ -27,8 +27,8 @@ When a user clicks a bulletin link or attachment, Chrome may navigate to the tar
 The extension requests the following permissions:
 
 - `storage`: stores the local enable/disable preference.
-- `https://aps.ncue.edu.tw/*`: enables the reader enhancement on supported NCUE APS bulletin pages.
-- `https://apss.ncue.edu.tw/*`: enables the reader enhancement on supported NCUE APSS bulletin pages.
+- Content script access to `https://aps.ncue.edu.tw/odedi/doc_page.php*`: enables the reader enhancement on supported NCUE APS bulletin detail pages.
+- Content script access to `https://apss.ncue.edu.tw/odedi/doc_page.php*`: enables the reader enhancement on supported NCUE APSS bulletin detail pages.
 
 The extension's content scripts are limited to NCUE bulletin detail pages under `/odedi/doc_page.php*`.
 
